@@ -22,6 +22,7 @@ let g:netrw_liststyle=0 "  tree
 let g:netrw_list_hide='\(^\|\s\s\)\zs\.\S\+' "  hide files starting with .
 let g:netrw_clipboard=0
 let netrw_browse_dir=1
+let g:netrw_keepdir=0
 
 set noswapfile                                   "  no swap files
 set nobackup                                          "  no backups
@@ -39,7 +40,7 @@ set scrolloff=10      "  padding between cursor and top/bottom of window
 set sidescrolloff=10  "  padding between cursor and left/right of window
 
 ""  Colors
-colorscheme elflord
+colorscheme retrobox
 "
 ""  Look and feel
 set number
